@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>CSS-BASICS</title>
+    <style>
+         .combination{
+            background-color: gray;
+            color: white;
+            padding: 20px;
+        }
+        .combination + h5{
+                background-color: blue;
+                color: black;
+        }
+        .combination+h5+h5{
+            background-color: green;
+            color: white;
+        }
+        .combination+h5+h5+h5{
+            background-color: blue;
+            color: chartreuse;
+        }
+        .combination+h5+h5+h5+h5{
+            background-color: brown;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>There are 4 different combination in css</h1>
+            </center>
+            <hr>
+            <ol>
+                <li>Descendent Selector (using Space)</li>
+                <li>Child Selector (using > symbol)</li>
+                <li>Adjacent sibling selector (using + symbol) </li>
+                <li>General  sibling selector(using ~ symbol)</li>
+            </ol>
+            <hr>
+
+            <h1>Adjacent sibling selector (using + symbol) example..!</h1>
+            <hr>
+            <section class="combination">
+                <h3>First H3 Tag...!(child element)</h3>
+                <p>first Paragraph..!(child element)</p>
+        
+                <h3>second H3 Tag...!(child element)</h3>
+                <p>second Paragraph..!(child element)</p>
+        
+                <h3>third H3 Tag...!(child element)</h3>
+                <p>third Paragraph..!(child element)</p>
+                <div>
+                    <h3>Fourth H3 Tag...!(Grandchild element)</h3>
+                    <p>Fourth Paragraph..!(Grandchild element)</p>
+                </div>
+                <h3>Fifth H3 Tag...!(child element)</h3>
+                <p>Fifth Paragraph..!(child element)</p>
+        
+            </section>
+
+            <h5>THIS IS FIRST H5</h5>
+            <h5>THIS IS SECOND H5</h5>
+            <h5>THIS IS THIRD H5</h5>
+            <h5>THIS IS FOURTH H5</h5>
+
+
+
+</body>
+</html>

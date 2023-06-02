@@ -1,0 +1,205 @@
+.cssColor1{
+    background-color: hsl(180, 100%, 25%);
+  
+}.cssColor2{
+    background-color: #ef55e5;
+   
+}.cssColor3{
+    background-color: rgb(0, 128, 128);
+ 
+}
+.commonCssColors{
+    color: white;
+    padding: 20px;
+    margin: 20px;
+}
+/*P7.HTML*/
+.jumbotron{
+    background-color: red;
+    border-radius: 10px;
+}
+.cssFont{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    font-variant: small-caps;
+}
+.cssText{
+    text-align: justify;
+    line-height: 2px;
+    letter-spacing: 2px;
+    word-spacing: 20px;
+    text-decoration: underline;
+    text-transform: uppercase;
+
+}
+.cssText>p{
+    text-indent: 100px;
+}
+/*P8.HTML*/
+.navBar{
+    background-color: gray;
+}
+
+.navBar>ul{
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+    float: right
+}
+.navBar>ul>li{
+     display: inline-block;
+     padding: 20px;
+
+}
+.navBar>ul>li:hover{
+    background-color: #fff;
+}
+
+.navBar>ul>li>a{
+    color:blueviolet;
+    text-decoration: none;
+}
+
+.navBar>ul>li:hover a{
+    color: gray;
+}
+
+.navBar>img{
+    height: 54px;
+}
+/*list marker position*/
+.list-marker-position>ol>li{
+    background-color: teal;
+    padding: 20px;
+    margin-bottom: 20px;
+    list-style-position: inside;
+
+}
+.list-marker-position>ol>li>::marker{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+/*Using image as bullet point*/
+.list-icon>ul>li{
+    margin-bottom: 20px;
+    list-style-image: url(../image/pin2.png);
+}
+
+/*list shorthand property*/
+.list-shorthand>ul>li{
+    background-color: teal;
+    padding: 20px;
+    margin: 20px;
+    color: white;
+
+   /* list-style-type: none;
+    list-style-position: inside;
+    list-style-image: url(); */
+     list-style: none inside url(../image/pin2.png);
+}
+/*p9.html*/
+.empty-cell-table{
+    empty-cells: hide;
+}
+.odd-even-table,  .odd-even-table th, .odd-even-table td{ 
+    border: 1px solid  #000;
+    padding: 20px;
+    border-collapse: collapse;
+    color: #fff;
+
+}
+.odd-even-table tr:nth-child(even){
+    background-color: lightgray;
+}
+.odd-even-table tr:nth-child(odd){
+    background-color: gray;
+}
+.odd-even-table tr:hover{
+    background-color: #ef55e5;
+}
+.odd-even-table th{
+    background-color: #87ceed;
+}
+.odd-even-table>caption{
+    color: #808080;
+    font-weight: bold;
+    caption-side: bottom;
+}
+.layout-table, .layout-table th, .layout-table td{
+    border: 2px solid grey;
+    border-collapse: collapse;
+    padding: 20px;
+}
+.layout-table{
+    width: 10px;
+    table-layout: fixed;
+}
+.layout-table th, .layout-table td{
+    overflow: scroll;
+}
+
+/*p10.html*/
+.logo{
+    background-color: gray;
+}
+.logo>ul{
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+    float: right;
+}
+.logo>nav>ul>li{
+    display: inline-block;
+    padding: 20px;
+}
+.logo>nav>ul>li:hover{
+    background-color: white;
+}
+.logo>nav>ul>li>a{
+    color: blueviolet;
+    text-decoration: none;
+   
+}
+.logo>nav>ul>li:hover a{
+    color: grey;
+}
+.logo>img{
+    height: 54px;
+}
+/*p11.html and p12html*/
+.banner1{
+    background-color: bisque;
+}
+.bannerCommonClass{
+    color: #808080;
+    padding: 30px;
+    height: 300px;
+    text-align: center;
+}
+.bannerCommonClass>h1{
+    font-size: 50px;
+}
+.bannerCommonClass>h1:hover{
+    color: #000;
+}
+.banner2{
+    background-image: url(../image/krishna.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
